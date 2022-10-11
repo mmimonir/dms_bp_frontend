@@ -44,6 +44,7 @@ function App() {
     <div className="container">
       <div className="row d-flex justify-content-center">
         <div className="col-md-4">
+          <p className="text-center bg-dark text-white p-2">Login Form</p>
           <form onSubmit={handleSubmit}>
             <div className="form-outline mb-4">
               <input
